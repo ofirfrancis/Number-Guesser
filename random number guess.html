@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type = "text/css" rel='stylesheet' href='number%20guesser%20style.css'/>
+		<script src='number%20guesser%20js.js'></script>
+		<link rel = "shortcut icon" href = "guesser%20icon.ico"/>
+		<title>Number guesser</title>
+	</head>
+	<body>
+		<h1>This is a number guesser</h1>
+		<button id = "start" onClick="myTimer = setInterval(myCounter, 500)">Press here to start</button>
+		<p id = "guess"></p>
+		<h2 id  = "message">Here you will see whether you guessed correctly</h2>
+		<div id = "counter">0</div>
+		<!--<form>
+			<input type = "text" name="userinput">
+			<input id = "submit" type="submit">
+		</form>-->
+		<p id = "false"></p>
+		<p id = "counterMessage">Below you will see how many guesses you made</p>
+		<p id = "falseMessage">These are your previous false guess</p>
+		<p id = "timer"></p>
+		<script>
+			document.getElementById("start").addEventListener("click", hello)
+		</script>
+	</body>
+</html>

@@ -1,0 +1,51 @@
+h1{
+    text-align: center;
+}
+#start{
+    height: 10vh;
+    width: 20vw;
+    position: absolute;
+    left: 39.5vw;
+	top: 45vh;
+	border-top-left-radius: 3vh;
+	border-bottom-right-radius: 3vh;
+	background-color: burlywood;
+}
+#message{
+	color: red;
+	text-align: center;
+}
+#counter{
+	height: 7vh;
+    width: 10vw;
+	background-color: burlywood;
+	border-top-left-radius: 3vh;
+	border-bottom-right-radius: 3vh;
+	position: absolute;
+	top: 25vh;
+	left: 44vw;
+	text-align: center;
+	line-height: 6.5vh;
+}
+#guess{
+	position: absolute;
+	top: auto;
+}
+*{
+	font-family: cursive;
+}
+#false{
+	position: absolute;
+	right: 10vw;
+	top: 20vh
+}
+#counterMessage{
+	position: absolute;
+	top: 17vh;
+	left: 38.6vw;
+}
+#falseMessage{
+	position: absolute;
+	top: 17vh;
+	right: 3vw;
+}
